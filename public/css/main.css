@@ -602,7 +602,9 @@ footer > .container{
 .about .bg {}
 
 .about .main,
-.news .main {
+.news .main,
+.booking .main,
+.contact .main {
     background-color: var(--main--color);
     text-align: justify;
     padding: 0 15px;
@@ -610,7 +612,9 @@ footer > .container{
 
 .about .main .title {}
 
-.about .main .title h3 {
+.about .main .title h3,
+.booking .main .title h3,
+.contact .main .title h3 {
     font-size: 24px;
     font-weight: bold;
     text-align: center;
@@ -675,7 +679,7 @@ footer > .container{
 /* Section booking */
 #booking {
     background-color: white;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 #booking .title {
@@ -788,6 +792,117 @@ footer > .container{
 .navbar .navmobile {
     display: none;
 }
+
+/* section booking */
+.booking .main{
+    padding-bottom: 25px;
+}
+.booking .main .title{
+    text-transform: capitalize;
+}
+.booking .content{
+
+}
+.booking .content .block{
+    color: white;
+    margin-bottom: 30px;
+}
+.booking .content .block:last-child{
+    margin: 0;
+}
+.booking .content .block .title{
+    border-bottom: 1px solid white;
+}
+.booking .content .block .title h4{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+}
+.booking .content .block .context{
+
+}
+.booking .content .block .context p{
+    margin-bottom: 5px;
+}
+.booking .content .block .context p a{
+    color: white;
+    font-weight: bold;
+    /* text-decoration: underline; */
+}
+.booking .content .block .context img{
+    width: 100%;
+    margin-top: 25px;
+}
+.booking .content .block .context p em{
+    font-style: italic;
+    text-align: center;
+    font-size: 14px;
+}
+.booking .content .block .context ul{
+    padding-left: 25px;
+    margin-bottom: 10px;
+}
+.booking .content .block .context ul li{
+    list-style-type: disc;
+}
+.booking .content .block .context ul li p{
+    margin-left: 20px;
+}
+.booking .content .block .bank{
+    margin-bottom: 15px;
+}
+.booking .content .block .context .img {
+    display: flex;
+    justify-content: flex-end;
+}
+.booking .content .block .context .img img{
+    width: 50%;
+    text-align: right;
+}
+.booking .content .block .context .infbank{
+    text-align: center;
+}
+
+/* End section booking */
+
+/* page contact */
+.contact .main {
+    padding-bottom: 10px;
+}
+.contact .main .title{
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+.contact .main .content .block{
+    color: white;
+    margin-bottom: 30px;
+}
+.contact .main .content .block .context{
+    
+}
+.contact .main .content .block .context p{
+    margin-bottom: 10px;
+}
+.contact .main .content .block .context p a{
+    color: white;
+    font-weight: bold;
+}
+.contact .main .content .block .context ul{
+    margin-bottom: 10px;
+}
+.contact .main .content .block .context ul li{
+    list-style-type: disc;
+    margin-left: 25px;
+}
+.contact .main .content .block .context ul li span a{
+    color: white;
+    font-weight: bold;
+}
+.mt{
+    margin-top: 30px;
+}
+/* End page contact */
 
 
 /* Reponseive */
